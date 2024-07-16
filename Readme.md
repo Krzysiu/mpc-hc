@@ -34,6 +34,10 @@ The buttons in the player that control playback rate take a 2x step by default. 
 Options > Playback > Speed step<br/>
 Adjusting playback speed works best with the SaneAR audio renderer. This also has automatic pitch correction.<br/>
 Options > Playback > Output > Audio Renderer
+Emulating YouTube's feature which speeds up rate when mouse button is held, example configuration:<br/>
+Menu > Player > Keys > Playback rate > Set Mouse to `Right down`<br/>
+Menu > Player > Keys > Reset rate > Set Mouse to `Right up`<br/>
+Menu > Player > Keys > Player menu > Set Mouse to `Right up` and Mouse modifier to `Ctrl` (click on the field, hold Ctrl and click on any different row, then release Ctrl)<br/>
 * MPC-HC can remember playback position, so you can resume from that point later<br/>
 Options > Player > History
 * You can quickly seek through a video with Ctrl + Mouse Scrollwheel.
